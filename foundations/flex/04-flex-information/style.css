@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* Add this will center all the text on the page */
+  text-align: center;
 }
 
 img {
@@ -10,6 +12,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+/* Answer */
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+  gap: 52px; 
+}
+
+/* Answer */
+.inner-container {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
